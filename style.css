@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    box-sizing: content-box;
+    font-size: 20px;
+    background-color: white;
+    width: 100%;
+}
+#body-div {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+    color: gray;
+}
+ul {
+    list-style-type: none;
+}
+#nav-bar {
+    flex-direction: column;
+
+}
+#nav-main {
+    padding: 30px 25px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+#nav-header {
+    width: 20%;
+    /* flex-direction: column; */
+}
+#signIn-em {
+    /* display: flex; */
+    /* flex-direction: row; */
+}
+#navbar {
+
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
+}
+.right {
+    display: flex;
+    flex-direction: row;
+}
+#subnav {
+    background-color: rgb(241, 238, 238);
+    display: flex;
+    flex-direction: column;
+}
+#navbar-ul {
+    margin: 5px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+.nav-class {
+    margin: 0;
+    padding: 15px 25px;
+}
+#middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#middle-1 {
+    padding-top: 55px;
+    padding-bottom: 25px;
+    margin: 0 15%;
+}
+#middle-1 > h1 {
+    font-size: 50px;
+    color: rgb(61, 29, 94);
+}
+#middle-1 > h1 > span {
+    color: rebeccapurple;
+}
+#middle-1-ul {
+    display: flex;
+}
+#middle-1-ul > li {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+}
+#middle-1-ul > li #b-border {
+    border-bottom: turquoise;
+}
+form {
+    padding-bottom: 24px;
+}
+input {
+    font-size: 15px;
+    color: rebeccapurple;
+    height: 54px;
+    width: 350px;
+    margin-right: 15px;
+    border: 2px solid rebeccapurple;
+    border-radius: 5px ;
+    
+}
+button {
+    padding: 20px 30px;
+    border: none;
+    font-size: 17px;
+    color: white;
+    background-color: rebeccapurple;
+    border-radius: 40%;
+}
+#search-img {
+    width: 2%;
+}
+#grad {
+    color: turquoise;
+}
+#middle-2 {
+    background-color: rgb(241, 238, 238);
+}
